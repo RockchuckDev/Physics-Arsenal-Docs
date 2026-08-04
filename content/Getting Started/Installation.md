@@ -56,5 +56,5 @@ At first, nothing will show up. To get all of the input mappings to load, just a
 Congratulations! Your project is set up and ready to use Physics Arsenal! I recommend you check out [[Quickstart]] to get familiar with Physics Arsenal, and [[Default Controls]] to see the included set of controls. Good luck on whatever you make next!
 %%last-updated-start%%
 ---
-*Last updated: 08-03-2026 20:50*
+*Last updated: 08-03-2026 21:34*
 %%last-updated-end%%
