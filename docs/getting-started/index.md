@@ -2,7 +2,11 @@
 title: Getting Started
 ---
 
+<<<<<<< HEAD
 This guide walks you through setting up Quartz from scratch. If you already ran the [[docs/getting-started/index#🪴 Get Started|quickstart]] on the home page, you can skip ahead to whichever step you're on.
+=======
+This guide walks you through setting up Quartz from scratch. If you already ran the [[index#🪴 Get Started|quickstart]] on the home page, you can skip ahead to whichever step you're on.
+>>>>>>> 490012e8225a2b91f30e30728d3f765ab170cee6
 
 ## Prerequisites
 
@@ -22,9 +26,15 @@ You need these tools installed before continuing:
 
 Follow these in order:
 
+<<<<<<< HEAD
 1. **[[docs/getting-started/installation|Installation]]** — Get Quartz (via GitHub template or clone), install dependencies, run the setup wizard (`npx quartz create`), install plugins, and preview your site locally
 2. **[[authoring-content|Authoring Content]]** — Write and organize your Markdown notes in the `content/` folder
 3. **[[docs/getting-started/installation#Setting Up Your GitHub Repository|Push to GitHub]]** — Create a repository and push your site with `npx quartz sync`
+=======
+1. **[[installation|Installation]]** — Get Quartz (via GitHub template or clone), install dependencies, run the setup wizard (`npx quartz create`), install plugins, and preview your site locally
+2. **[[authoring-content|Authoring Content]]** — Write and organize your Markdown notes in the `content/` folder
+3. **[[installation#Setting Up Your GitHub Repository|Push to GitHub]]** — Create a repository and push your site with `npx quartz sync`
+>>>>>>> 490012e8225a2b91f30e30728d3f765ab170cee6
 4. **[[hosting|Deploy]]** — Host your site for free on GitHub Pages, Cloudflare, Netlify, or Vercel
 
 ## Upgrading & Migrating
