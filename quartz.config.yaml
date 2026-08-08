@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: https://github.com/RockchuckDev/Physics-Arsenal-Docs
+  baseUrl: https://rockchuckdev.github.io/Physics-Arsenal-Docs/
   ignorePatterns:
     - private
     - templates
