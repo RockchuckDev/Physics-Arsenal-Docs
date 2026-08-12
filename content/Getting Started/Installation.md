@@ -1,10 +1,11 @@
 There are three places you can download Physics arsenal from:
 - [Github](https://github.com/RockchuckDev/Physics-Arsenal)
 - The asset store tab within the Godot Engine
-- The Godot Asset Store page
+- [The Godot Asset Store page](https://store.godotengine.org/asset/rockchuckdev/physics-armory/)
 <br>
 Physics Arsenal is free with an [[Physics Arsenal License|MIT License]] no matter where you download it. This guide covers installing Physics Arsenal from within the Godot Editor.
-
+Note: The .NET build of Godot is required to use Physics Arsenal, as it was programmed in C#. However, projects made in the non .NET build of Godot can be opened in the .NET build. The only difference between these two builds of Godot is that the .NET build supports C#. Otherwise they are functionally identitcal.
+[[Why C-Sharp?]]
 
 # Downloading Assets
 First, click on the "Asset Store" button at the top of the Godot editor, and search for "Physics Arsenal." Once the results load, click on "Physics Arsenal."
@@ -56,5 +57,5 @@ At first, nothing will show up. To get all of the input mappings to load, just a
 Congratulations! Your project is set up and ready to use Physics Arsenal! I recommend you check out [[Quickstart]] to get familiar with Physics Arsenal, and [[Default Controls]] to see the included set of controls. Good luck on whatever you make next!
 %%last-updated-start%%
 ---
-*Last updated: 08-03-2026 21:34*
+*Last updated: 08-11-2026 21:30*
 %%last-updated-end%%
