@@ -3,7 +3,7 @@
 title: Physics Arsenal v0.1.2-alpha
 
 ---
-<video src="/content/Assets/Showcase.webm" autoplay muted loop playsinline></video>
+<video src="Assets/Showcase.webm" autoplay muted loop playsinline></video>
  <br>
  A toolkit built for Godot that streamlines the process of adding physics based interactions between the player and the environment. Built for Godot .NET 4.7.
 
@@ -21,5 +21,5 @@ Check out [Getting Started](/getting-started/) to learn how to set up Physics Ar
 
 %%last-updated-start%%
 ---
-*Last updated: 08-15-2026 22:07*
+*Last updated: 08-15-2026 22:11*
 %%last-updated-end%%
