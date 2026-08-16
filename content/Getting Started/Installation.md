@@ -53,9 +53,21 @@ Below the "[input]" heading, paste the contents of "InputMappings.txt" that we c
 At first, nothing will show up. To get all of the input mappings to load, just add a new action to the list. If you have done everything correctly, all the input mappings should show up:
 <br>
 ![[all-input-mappings-in-godot.png]]
-
+# Autoloads
+There are two things you need to add to your project autoloads, [[ParticleManager.cs]] and CrosshairManager.tscn. To do this, open Project Settings, go to the "Globals" tab, and then press "Select Script/Scene."
+<br>
+![[autolaods page.png]]
+<br>
+From there, navigate to the provided "Managers" folder, and select "[[ParticleManager.cs]]."
+<br>
+![[select particle manager.png]]
+<br>
+Then, do the same thing for CrosshairManager.tscn.
+<br>
+![[crosshair manager.png]]
+<br>
 Congratulations! Your project is set up and ready to use Physics Arsenal! I recommend you check out [[Quickstart]] to get familiar with Physics Arsenal, and [[Default Controls]] to see the included set of controls. Good luck on whatever you make next!
 %%last-updated-start%%
 ---
-*Last updated: 08-11-2026 22:12*
+*Last updated: 08-15-2026 23:27*
 %%last-updated-end%%

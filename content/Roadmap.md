@@ -19,8 +19,9 @@
 # Future Ideas
 - Ability to "holster" grabbable objects on your sides and back
 - Grenades
+- [[EventBusDeluxe.cs]] works with both GDScript and C#
 
 %%last-updated-start%%
 ---
-*Last updated: 08-15-2026 21:56*
+*Last updated: 08-15-2026 23:15*
 %%last-updated-end%%
