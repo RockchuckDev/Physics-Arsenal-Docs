@@ -2,7 +2,9 @@
 title: PlayerController
 ---
 
-# Exported Variables
+# class PlayerController
+
+## Exported Variables
 
 | Name | Type | Description |
 |---|---|---|

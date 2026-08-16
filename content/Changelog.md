@@ -1,4 +1,34 @@
 
+# v0.2.0-alpha
+- Added 
+	- [[Extensions.cs#`Vector3 GetCollisionPointOrEndPoint(this RayCast3D rayCast)` |Vector3 GetCollisionPointOrEndPoint(this RayCast3D rayCast)]] to [[Extensions.cs]]
+	- [Event Bus Deluxe](/script-reference/event-bus-deluxe/) folder
+		- [[EventBusDeluxe.cs]]
+		- [[EventTypes.cs]]
+	- [Managers](/script-reference/managers/) folder
+		- CrosshairManager.tscn
+		- [[ParticleManager.cs]]
+		- bullet_impact_particles.tscn
+	- [UI](/script-reference/ui) folder
+		- [[MoveToRaycastPointOnScreen.cs]]
+		- BasicCrosshair.tscn
+	- Objects folder
+		- [[IsGrabbedTracker.cs]]
+		- [[ShootOnInteract.cs]]
+	- Object Customization
+		- Metadata
+			- [[look_at_target]]
+			- [[look_at_target_y_offset]]
+		- Child Nodes
+			- [[ShootOnInteract.cs]] (raycast3D)
+- Moved
+	- [[DisplayGrabMode.cs]] to [UI](/script-reference/ui) folder
+	- Pistol.tscn to Objects folder
+- Removed
+	-  effectiveRotationStrength and effectiveRotationDampening from grabData. These variables were intended to fix the jitter that ocurred with only small objects, but the jitter was actually due to the fact that Grab Pivot.tscn had a collision shape. This caused the collision shapes of the grabbed object and the Grab Pivot to try to separate while the fixed joint tried to keep them together, causing jitter. Once the collision shape was removed, the jitter was fixed, and effectiveRotationStrength and effectiveRotationDampening were no longer needed
+	- effectiveRotationStrength and effectiveRotationDampening logic from [[PlayerInteraction.cs]]
+	- CollisionShape3D from Grab Pivot.tscn
+- Improved and updated [Script Reference](/script-reference/)
 # v0.1.2-alpha
 - Renamed project from "Physkit" to "Physics Arsenal"
 - Added a simple color palette to the Materials folder. 

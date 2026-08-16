@@ -2,9 +2,13 @@
 title: Extensions
 ---
 
-# Public Functions
+# class Extensions
 
-## `float ToJumpVelocity(this float desiredHeight, float risingGravityMagnitude)`
+A collection of useful extension methods for various types
+
+## Public Functions
+
+### `float ToJumpVelocity(this float desiredHeight, float risingGravityMagnitude)`
 
 Converts a desired jump height into the needed velocity to achieve that height based on a supplied gravity magnitude
 
@@ -15,7 +19,7 @@ Converts a desired jump height into the needed velocity to achieve that height b
 
 **Returns:** The velocity needed to achieve the desired height
 
-## `Vector3 FlattenVector(this Vector3 vector3)`
+### `Vector3 FlattenVector(this Vector3 vector3)`
 
 Flattens a vector by setting its Y component to 0
 
@@ -23,4 +27,8 @@ Flattens a vector by setting its Y component to 0
 |---|---|
 | `vector3` | The vector to flatten |
 
-**Returns:** The flattened vector
+**Returns:** The original vector with its Y component set to 0
+
+### `Vector3 GetCollisionPointOrEndPoint(this RayCast3D rayCast)`
+
+Returns the collision point if the raycast is colliding, otherwise returns the end point of the ray cast.
